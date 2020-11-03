@@ -31,6 +31,7 @@ public class CodeGenerator {
      * </p>
      */
     public static String scanner(String tip) {
+        System.out.println("今天完成了任务下班马上走");
         System.out.println("完成登录功能");
         Scanner scanner = new Scanner(System.in);
         StringBuilder help = new StringBuilder();
