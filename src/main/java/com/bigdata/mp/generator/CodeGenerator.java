@@ -31,6 +31,7 @@ public class CodeGenerator {
      * </p>
      */
     public static String scanner(String tip) {
+        System.out.println("完成登录功能");
         Scanner scanner = new Scanner(System.in);
         StringBuilder help = new StringBuilder();
         help.append("请输入" + tip + "：");
